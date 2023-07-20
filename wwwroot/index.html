@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title> FuRRex-AI</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="Check.styles.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url('homepage.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            border-radius: 15px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        #app{
+            align-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="status-bar-safe-area">
+
+        <div id="app">
+            <p>Sign in with Google or Apple</p>
+            <button style="background-color: red;">Google</button>
+            <button style="background-color: lightgray;">Apple</button><br>
+            <button id="toggle-button" style="background-color: white;">Login with Email</button>
+            <p> If you don't have an account, sign up <a href="#">here</a></p>
+
+        </div>
+
+        <div id="blazor-error-ui">
+            An unhandled error has occurred.
+            <a href="" class="reload">Reload</a>
+            <a class="dismiss">🗙</a>
+        </div>
+
+    </div>
+
+    <script src="_framework/blazor.webview.js" autostart="true"></script>
+
+</body>
+
+</html>
+
+
+
+
